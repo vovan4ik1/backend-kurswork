@@ -1,0 +1,157 @@
+﻿body {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6, th {
+  color: rgb(63, 63, 155);
+}
+
+.caption {
+  font-weight: bold;
+  color: maroon;
+}
+
+.greeting {
+  font-size: 34pt;
+  font-family: 'Bookman Old Style', serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 14pt;
+  font-family: Georgia, serif;
+}
+
+.navbar {
+   background-color: #2b8739;
+   border: 1px solid #8b8787;
+   border-radius: 10px;
+   width: 100%;
+   max-width: 1490px;
+   padding-left: 50px;
+   margin: 0 auto;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.invoice {
+   background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#invoice {
+   border-spacing: 0;
+   border: 1px solid maroon;
+   width: 100%;
+   border-collapse: collapse;
+}
+
+#invoice td, #invoice th {
+   padding: 10px;
+   border: 1px solid maroon;
+   text-align: left;
+}
+
+#header {
+   background-image: url('../images/banner1.jpg');
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 200px;
+   background-size: cover;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+}
+
+#left {
+   background-color: #16bd6d;
+   padding-top: 20px;
+   top: 200px;
+   height: 800px;
+   position: fixed;
+   width: 20%;
+   overflow-y: auto;
+}
+
+#right {
+   top: 200px; /* Виправлено для сумісності з header */
+   height: 800px;
+   background-color: #ffffff;
+   margin-left: 21%;
+   padding: 20px;
+   overflow-y: auto;
+}
+
+#IDates {
+   margin: auto;
+   border: 3px solid red;
+   border-spacing: 0;
+   border-collapse: collapse;
+   width: 80%;
+   margin-top: 20px;
+}
+
+#IDates td, #IDates th {
+   border: 1px solid red;
+   padding: 10px;
+   text-align: left; 
+}
+
+
+.container-fluid {
+ padding: 20px;
+ background-color: #f9f9f9;
+ border-radius: 10px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ max-width: 800px;
+ margin: 20px auto;
+}
+
+.bag-title {
+ color: #2b8739;
+ font-family: 'Georgia', serif;
+ font-weight: bold;
+ margin-bottom: 20px;
+ text-align: center; 
+}
+
+.bag-image {
+ width: 100%;
+ height: auto;
+ max-width: 400px;
+ border-radius: 10px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ margin: 0 auto;
+ display: block;
+}
+
+.bag-detail-row {
+ margin-bottom: 15px;
+}
+
+.bag-detail-label {
+ font-weight: bold;
+ color: #333;
+}
+
+.bag-detail-value {
+ color: #555;
+}
+
+.text-center {
+ text-align: center;
+}
+
+.my-4 {
+ margin-top: 1.5rem;
+ margin-bottom: 1.5rem;
+}
+
+.justify-content-center {
+ display: flex;
+ justify-content: center;
+}
